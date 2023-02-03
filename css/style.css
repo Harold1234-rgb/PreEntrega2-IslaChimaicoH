@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik+80s+Fade&family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik+80s+Fade&family=Ubuntu:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    min-height: 125px;
+    background-color: rgba(15, 15, 15, 0.897);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Logo de la empresa en el index*/
+/* Imagen del logo en las otras páginas*/
+.img-logo {
+    margin-right: 10px;
+    width: 175px;
+}
+
+nav a {
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 600;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* Todo lo relacionado con la Navegación de las páginas */
+.flex-container {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+    ;
+    background-color: bisque;
+
+}
+
+#Beneficios ul li {
+    border: none;
+    list-style: none;
+}
+
+ul li {
+    padding: 1rem;
+    background-color: bisque;
+    border: 1px solid black;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Dentro de Footer realizamos el quitado de decoración a todos los links*/
+footer a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* Estilos del Main */
+.flex-padre {
+    display: flex;
+    min-height: 110vh;
+    flex-direction: column;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Estilos de la imagen insertada en el Id Hero */
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5),
+        );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Estilos al texto H1 y la caja que contiene el titulo */
+#hero h1 {
+    color: rgb(255, 255, 255);
+    height: 440px;
+    width: 430px;
+    align-items: center;
+    background-color: rgba(12, 12, 12, 0.925);
+    background-repeat: no-repeat;
+    background-position: cover;
+    font-size: 80px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+/* Estilos que se aplican al button */
+#hero button {
+    font-size: 2em;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 15px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* Estilos de la seccion Gorras vintage */
+#gorras-vintage {
+    margin: 50px 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 1300px;
+    height: 700px;
+    background-image: url(../recursos/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 15px 15px;
+}
+
+/* Estilos en la seccion sombreros dama */
+#sombreros-dama {
+    width: 100%;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../recursos/sombreros-dama.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Estilos en la etiqueta de texto h2 */
+.container h2 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+/* Estilos en la etiqueta de texto Parrafo */
+.container p {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+/* Estilos a aplicar en las clases carta */
+#sombreros-dama .carta {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos a aplicar en las clases carta, especidicamnete las imagenes */
+#sombreros-dama .carta img {
+    height: 200px;
+    border-radius: 15px;
+}
+
+/* Estilos que le damos a los botones que se encuentran en carta */
+#sombreros-dama button {
+    font-size: 1.75em;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 15px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* Aplicando estilos a la seccion beneficios*/
+#Beneficios .container {
+    display: flex;
+}
+
+/* Imagen del ID Beneficios */
+.container img {
+    height: 150px;
+    flex-direction: column;
+}
+
+/* Estilos de la ul y li */
+.container ul li {
+    text-align: justify;
+    align-items: flex-start;
+}
+
+/* Estilos que se le dan al ID final */
+#final {
+    /* background-color: black; */
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Cambiando el tamoño de texto del H2 */
+#final h2 {
+    font-size: 70px;
+}
+
+/* Estilos de tipo de letra, tamaño de caja y color del button */
+#final button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 45px;
+    width: 150px;
+    background-color: burlywood;
+}
+
+/* Le damos color blanco a todos los parrafos */
+p {
+    color: white;
+}
+
+/* Dentro del footer realizamos algunos estilos */
+footer h3 {
+    color: black;
+    background-color: bisque;
+}
+
+/* Dentro de Footer realizamos el centrado a la etiqueta H3 */
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik 80s Fade';
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Estilos del footer para todas las paginas */
+.flex-hijo {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    background-color: bisque;
+}
+
+.gorras-vintage {
+    display: flex;
+    margin-top: -35px;
+    margin-right: 20px;
+    width: 340px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* Estilos para el Main de la pagina de servicios */
+.flex-padre1 {
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Estilos para el parrafo dentro del Main de la pagina servicios */
+.flex-padre1 p {
+    display: flex;
+    width: 500px;
+}
+
+/* Estilos para el IFRAME que se encuentra en el Main de la pagina servicios */
+.flex-padre1 iframe {
+    border-radius: 30px;
+}
+
+/* Estilos para  la pagina de contacto y su Main*/
+.flex-padre1 .maps {
+    display: flex;
+    margin-top: -35px;
+    margin-right: 20px;
+    width: 400px;
+}
+
+/* Media QUERY  pantallas Medianas*/
+@media (max-width: 768px) {
+    header {
+        display: flex;
+        height: 250px;
+        background-color: rgba(15, 15, 15, 0.897);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #hero {
+        margin-top: 85px;
+    }
+
+    #hero h1 {
+        color: rgb(255, 255, 255);
+        height: 500px;
+        width: 500px;
+        align-items: center;
+        background-color: rgba(12, 12, 12, 0.925);
+        background-repeat: no-repeat;
+        background-position: cover;
+        font-size: 80px;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    #gorras-vintage {
+        margin: 50px 50px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        width: 700px;
+        height: 500px;
+        background-image: url(../recursos/hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .flex-padre {
+        display: flex;
+        min-height: 110vh;
+        flex-direction: row;
+        background-color: bisque;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #final h2 {
+        font-size: 50px;
+    }
+
+}
+
+/* Estilos para pantallas pequeñas del Index */
+@media (max-width: 320px) {
+    header {
+        display: flexbox;
+        min-height: 125px;
+        background-color: rgba(15, 15, 15, 0.897);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #hero h1 {
+        color: rgb(255, 255, 255);
+        height: 250px;
+        width: 230px;
+        align-items: center;
+        background-color: rgba(12, 12, 12, 0.925);
+        background-repeat: no-repeat;
+        background-position: cover;
+        font-size: 40px;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    #gorras-vintage {
+        margin: 50px 50px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        width: 550px;
+        height: 350px;
+        background-image: url(../recursos/hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .container h2 {
+        font-size: 35px;
+        text-align: center;
+        color: white;
+    }
+
+    .container p {
+        font-size: 15px;
+        text-align: center;
+        color: white;
+    }
+
+    #sombreros-dama .carta img {
+        height: 100px;
+        border-radius: 15px;
+    }
+
+    #Beneficios .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #final h2 {
+        font-size: 30px;
+    }
+
+    .flex-hijo {
+        list-style: none;
+        font-size: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 80px;
+        align-items: center;
+        background-color: bisque;
+    }
+}
+
+/* Media QUERY PANTALLAS PEQUEÑAS */
+@media (max-width: 420px) {}
