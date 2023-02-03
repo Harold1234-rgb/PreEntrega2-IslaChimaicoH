@@ -306,7 +306,7 @@ h3 {
     width: 400px;
 }
 
-/* Media QUERY  pantallas Medianas*/
+/* Media QUERY  pantallas Medianas INDEX*/
 @media (max-width: 768px) {
     header {
         display: flex;
@@ -438,7 +438,7 @@ h3 {
     }
 }
 
-/* Media QUERY PANTALLAS MEDIANAS */
+/* Media QUERY PANTALLAS MEDIANAS PAGINA DE SERVICIO */
 @media (max-width: 768px) {
     .flex-padre1 {
         min-height: 90vh;
@@ -477,7 +477,7 @@ h3 {
     }
 
 }
-
+/* Media QUERY PANTALLAS PEQUEÑAS PAGINA DE SERVICIO */
 @media (max-width: 420px) {
     header {
         display: flexbox;
