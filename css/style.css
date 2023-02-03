@@ -353,7 +353,7 @@ h3 {
 }
 
 /* Estilos para pantallas pequeñas del Index */
-@media (max-width: 320px) {
+@media (max-width: 420px) {
     header {
         display: flexbox;
         min-height: 125px;
@@ -429,4 +429,6 @@ h3 {
 }
 
 /* Media QUERY PANTALLAS PEQUEÑAS */
-@media (max-width: 420px) {}
+@media (max-width: 420px) {
+
+}
