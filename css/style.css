@@ -257,6 +257,16 @@ h3 {
     align-items: center;
     background-color: bisque;
 }
+.flex-hijo-1 {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    background-color: bisque;
+}
 
 .gorras-vintage {
     display: flex;
@@ -428,7 +438,76 @@ h3 {
     }
 }
 
-/* Media QUERY PANTALLAS PEQUEÑAS */
-@media (max-width: 420px) {
+/* Media QUERY PANTALLAS MEDIANAS */
+@media (max-width: 768px) {
+    .flex-padre1 {
+        min-height: 90vh;
+        background-color: brown;
+    }
 
+    .flex-padre1 article {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .flex-padre1 article h2,
+    p {
+        color: black;
+    }
+
+    .flex-padre1 div iframe {
+        margin: 3px 3px;
+        height: 250px;
+        width: 300px;
+    }
+
+    .flex-hijo-1 {
+        background-color: rgba(15, 15, 15, 0.897);
+    }
+
+    .footer-servicios a {
+        font-size: 12px;
+        color: white;
+    }
+
+    .footer-servicios .icono {
+        color: white;
+    }
+
+}
+
+@media (max-width: 420px) {
+    header {
+        display: flexbox;
+        min-height: 125px;
+        width: 95%;
+        background-color: rgba(15, 15, 15, 0.897);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .flex-padre1 p {
+        display: flex;
+        width: 420px;
+    }
+
+    .flex-hijo-1 {
+        background-color: rgba(15, 15, 15, 0.897);
+    }
+
+    .footer-servicios h3 {
+        font-size: 15px;
+    }
+
+    .footer-servicios a {
+        font-size: 12px;
+        color: white;
+    }
+
+    .footer-servicios .icono {
+        color: white;
+    }
 }
